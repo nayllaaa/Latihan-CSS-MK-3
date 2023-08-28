@@ -1,0 +1,39 @@
+/*Ketika link belum pernah di kunjungi*/
+a:link{
+    color:lightcoral;
+}
+
+/*Ketika button sudah di kunjungi*/
+a:visited{
+    color:red;
+}
+
+/*Ketika mouse diletakkan di atas link*/
+a:hover{
+    color:plum;
+}
+
+/*Ketika hyperlink sedang di tekan*/
+a:active{
+    color:gold;
+}
+
+/*Mengatur style pada tombol*/
+.button{
+    border-radius: 5px;
+    border:none;
+    background-color: lightpink;
+    color: #ffff;
+    text-align: center;
+    font-size: 28px;
+}
+
+/*Mouse ketika di letakkan di atas button*/
+.button:hover {background-color: orange;}
+
+/*ketika buttton sedang di tekan*/
+.button:active {
+    background-color:#3e8e41;
+    box-shadow: 0 5px #666;
+}
+

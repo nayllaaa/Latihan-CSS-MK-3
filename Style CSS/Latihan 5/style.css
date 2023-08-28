@@ -1,0 +1,21 @@
+    /*untuk mengganti style pada h1 menjadi warna biru muda*/
+h1{
+    color: lightblue;
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+    }
+
+    /*Mengganti style pada bagian p/paragraph supaya menjadi warna biru dengan font verdana*/
+p{
+    text-indent: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: royalblue;
+    font-family: verdana; }
+
+    /*mengganti style li/list menjadi warna biru dengan font cursive*/
+li{
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: cursive;}

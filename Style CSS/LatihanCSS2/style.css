@@ -1,0 +1,55 @@
+table{
+    border-collapse: collapse;
+    font-family: verdana;
+    
+}
+
+/* Mengubah lebar kolom pertama */
+tr td:first-child {
+    width: 50px;
+}
+
+
+ /* Ubah lebar semua kolom kecuali kolom pertama */
+tr td:not(:first-child) {
+    width: 100px;
+}
+
+/* Tambahkan garis bawah dengan border-bottom */
+tr td {
+    border-bottom: 1px solid white;
+}
+
+thead td {
+    /* style yang ingin di berikan pada <td> yang berada di bawah <thead> */
+    background-color: salmon;
+    color: beige;
+  }
+  
+
+tbody tr:nth-child(odd) {
+    background-color: #81CFE0; /* Warna background */
+    color: white; /* Warna teks */
+}
+
+/* Mengubah style bernomor genap */
+tbody tr:nth-child(even) {
+    background-color: #81CFE0; /* Warna background */
+    color: white; /* Warna teks */
+}
+
+/* Warna default kolom dan teks */
+tbody tr td {
+    background-color: #81CFE0; /* Warna latar belakang default */
+    color: #fff; /* Warna teks default */
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi untuk perubahan warna */
+}
+
+/* Mengubah warna saat dihover */
+tbody tr:hover td {
+    background-color: plum; /* Warna latar belakang saat dihover */
+    color: #000; /* Warna teks saat dihober */
+}
+
+
+
